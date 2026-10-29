@@ -1,0 +1,14 @@
+{
+  "name": "queenbee-tp5-dev",
+  "version": "1.0.0",
+  "description": "TP 5 QueenBee : Event Storming et agrégat Alerte (parcours Dev, M1 INGETIS)",
+  "type": "module",
+  "private": true,
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "test": "node --test",
+    "demo": "node seance5-comportement-ddd/queenbee-alerte/demo.js",
+    "lint:archi": "node tools/check-architecture.js",
+    "tp5": "node tools/run-specs.js seance5-comportement-ddd/queenbee-alerte"
+  }
+}
